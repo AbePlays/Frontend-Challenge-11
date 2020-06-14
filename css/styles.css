@@ -304,4 +304,10 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position: top right, left bottom;
 }
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-image: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

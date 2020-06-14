@@ -18,4 +18,8 @@ body {
   background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: top right, left bottom;
+
+  @media screen and (max-width: 1200px) {
+    background-image: none;
+  }
 }
