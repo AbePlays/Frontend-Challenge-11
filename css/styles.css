@@ -93,7 +93,7 @@
   color: #494c5f;
 }
 
-.cards .card1 .priceContainer .price {
+.cards .card1 .priceContainer .price1 {
   font-size: 3.6rem;
   color: #494c5f;
 }
@@ -161,7 +161,7 @@
   margin-right: 0.5rem;
 }
 
-.cards .card__blue .priceContainer .price {
+.cards .card__blue .priceContainer .price2 {
   font-size: 3.6rem;
 }
 
@@ -226,7 +226,7 @@
   color: #494c5f;
 }
 
-.cards .card2 .priceContainer .price {
+.cards .card2 .priceContainer .price3 {
   font-size: 3.6rem;
   color: #494c5f;
 }
