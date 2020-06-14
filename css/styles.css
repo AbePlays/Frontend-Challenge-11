@@ -270,8 +270,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   background-color: #f6f6fe;
-  background-image: url("../images/bg-top.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
+  background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, left bottom;
 }
 /*# sourceMappingURL=styles.css.map */
