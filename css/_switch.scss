@@ -10,10 +10,22 @@
   }
 
   &--Button {
+    position: relative;
     height: 2rem;
     width: 3.66rem;
     background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     margin: 0 1.6rem;
     border-radius: 1rem;
+    cursor: pointer;
+
+    .ball {
+      position: absolute;
+      background-color: #fff;
+      height: 1.66rem;
+      width: 1.66rem;
+      border-radius: 50%;
+      top: 3px;
+      left: 4px;
+    }
   }
 }

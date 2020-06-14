@@ -24,12 +24,24 @@
 }
 
 .switch--Button {
+  position: relative;
   height: 2rem;
   width: 3.66rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
   background: linear-gradient(#a3a8f0, #696fdd);
   margin: 0 1.6rem;
   border-radius: 1rem;
+  cursor: pointer;
+}
+
+.switch--Button .ball {
+  position: absolute;
+  background-color: #fff;
+  height: 1.66rem;
+  width: 1.66rem;
+  border-radius: 50%;
+  top: 3px;
+  left: 4px;
 }
 
 *,
