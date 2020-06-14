@@ -4,6 +4,10 @@
   justify-content: center;
   align-items: center;
 
+  @media screen and (max-width: 1200px) {
+    display: block;
+  }
+
   .card1 {
     box-shadow: 0 0 10px 0 $lightGrayishBlue;
     height: 30rem;
@@ -13,6 +17,12 @@
     text-align: center;
     color: $grayishBlue;
     padding: 2.4rem 2rem 2rem 2rem;
+
+    @media screen and (max-width: 1200px) {
+      margin: 0 auto 2rem auto;
+      width: 20rem;
+      border-radius: 1rem;
+    }
 
     .topText {
       font-size: 1rem;
@@ -71,6 +81,12 @@
     color: white;
     padding: 4rem 2rem 2rem 2rem;
 
+    @media screen and (max-width: 1200px) {
+      margin: 0 auto 2rem auto;
+      width: 20rem;
+      border-radius: 1rem;
+    }
+
     .topText {
       font-size: 1rem;
       color: white;
@@ -128,6 +144,12 @@
     text-align: center;
     color: $grayishBlue;
     padding: 2.4rem 2rem 2rem 2rem;
+
+    @media screen and (max-width: 1200px) {
+      margin: 0 auto 2rem auto;
+      width: 20rem;
+      border-radius: 1rem;
+    }
 
     .topText {
       font-size: 1rem;
