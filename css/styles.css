@@ -44,6 +44,219 @@
   left: 4px;
 }
 
+.cards {
+  margin-top: 4.26rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .card1 {
+  -webkit-box-shadow: 0 0 10px 0 #b3b5c6;
+          box-shadow: 0 0 10px 0 #b3b5c6;
+  height: 30rem;
+  width: 23.33rem;
+  background-color: white;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+  color: #6d708d;
+  padding: 2.4rem 2rem 2rem 2rem;
+}
+
+.cards .card1 .topText {
+  font-size: 1rem;
+}
+
+.cards .card1 .priceContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards .card1 .priceContainer span {
+  font-size: 2.4rem;
+  margin-right: 0.5rem;
+  color: #494c5f;
+}
+
+.cards .card1 .priceContainer .price {
+  font-size: 3.6rem;
+  color: #494c5f;
+}
+
+.cards .card1 .line {
+  height: 1px;
+  background-color: #b3b5c6;
+  margin: 1rem 0;
+}
+
+.cards .card1 button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(#a3a8f0, #696fdd);
+  width: 100%;
+  margin: 2rem 0 0 0;
+  height: 3rem;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.cards .card1 button:hover {
+  opacity: 0.9;
+}
+
+.cards .card__blue {
+  -webkit-box-shadow: 0 0 10px 0 #b3b5c6;
+          box-shadow: 0 0 10px 0 #b3b5c6;
+  height: 33rem;
+  width: 23.33rem;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(#a3a8f0, #696fdd);
+  text-align: center;
+  color: white;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.cards .card__blue .topText {
+  font-size: 1rem;
+  color: white;
+}
+
+.cards .card__blue .priceContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards .card__blue .priceContainer span {
+  font-size: 2.4rem;
+  margin-right: 0.5rem;
+}
+
+.cards .card__blue .priceContainer .price {
+  font-size: 3.6rem;
+}
+
+.cards .card__blue .line {
+  height: 1px;
+  background-color: #b3b5c6;
+  margin: 1rem 0;
+}
+
+.cards .card__blue button {
+  background: white;
+  color: #696fdd;
+  width: 100%;
+  margin: 2rem 0 0 0;
+  height: 3rem;
+  border-style: none;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.cards .card__blue button:hover {
+  opacity: 0.8;
+}
+
+.cards .card2 {
+  -webkit-box-shadow: 0 0 10px 0 #b3b5c6;
+          box-shadow: 0 0 10px 0 #b3b5c6;
+  height: 30rem;
+  width: 23.33rem;
+  background-color: white;
+  border-radius: 0 1rem 1rem 0;
+  text-align: center;
+  color: #6d708d;
+  padding: 2.4rem 2rem 2rem 2rem;
+}
+
+.cards .card2 .topText {
+  font-size: 1rem;
+}
+
+.cards .card2 .priceContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards .card2 .priceContainer span {
+  font-size: 2.4rem;
+  margin-right: 0.5rem;
+  color: #494c5f;
+}
+
+.cards .card2 .priceContainer .price {
+  font-size: 3.6rem;
+  color: #494c5f;
+}
+
+.cards .card2 .line {
+  height: 1px;
+  background-color: #b3b5c6;
+  margin: 1rem 0;
+}
+
+.cards button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(#a3a8f0, #696fdd);
+  width: 100%;
+  margin: 2rem 0 0 0;
+  height: 3rem;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.cards button:hover {
+  opacity: 0.9;
+}
+
 *,
 *::after,
 *::before {
@@ -56,5 +269,9 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  background-color: #f6f6fe;
+  background-image: url("../images/bg-top.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 /*# sourceMappingURL=styles.css.map */

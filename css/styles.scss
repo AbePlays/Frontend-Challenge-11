@@ -1,6 +1,7 @@
 @import "variables";
 @import "heading";
 @import "switch";
+@import "cards";
 
 *,
 *::after,
@@ -13,4 +14,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  background-color: $veryLightGrayishBlue;
+  background-image: url("../images/bg-top.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
 }

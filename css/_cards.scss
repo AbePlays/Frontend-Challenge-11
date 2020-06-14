@@ -1,0 +1,180 @@
+.cards {
+  margin-top: 4.26rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card1 {
+    box-shadow: 0 0 10px 0 $lightGrayishBlue;
+    height: 30rem;
+    width: 23.33rem;
+    background-color: white;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+    color: $grayishBlue;
+    padding: 2.4rem 2rem 2rem 2rem;
+
+    .topText {
+      font-size: 1rem;
+    }
+
+    .priceContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      span {
+        font-size: 2.4rem;
+        margin-right: 0.5rem;
+        color: $darkGrayishBlue;
+      }
+      .price {
+        font-size: 3.6rem;
+        color: $darkGrayishBlue;
+      }
+    }
+
+    .line {
+      height: 1px;
+      background-color: $lightGrayishBlue;
+      margin: 1rem 0;
+    }
+
+    button {
+      background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+      width: 100%;
+      margin: 2rem 0 0 0;
+      height: 3rem;
+      border-style: none;
+      color: white;
+      border-radius: 5px;
+      letter-spacing: 0.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 200ms ease-in-out;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .card__blue {
+    box-shadow: 0 0 10px 0 $lightGrayishBlue;
+    height: 33rem;
+    width: 23.33rem;
+    border-radius: 1rem;
+    background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    text-align: center;
+    color: white;
+    padding: 4rem 2rem 2rem 2rem;
+
+    .topText {
+      font-size: 1rem;
+      color: white;
+    }
+
+    .priceContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      span {
+        font-size: 2.4rem;
+        margin-right: 0.5rem;
+      }
+
+      .price {
+        font-size: 3.6rem;
+      }
+    }
+
+    .line {
+      height: 1px;
+      background-color: $lightGrayishBlue;
+      margin: 1rem 0;
+    }
+
+    button {
+      background: white;
+      color: hsl(237, 63%, 64%);
+      width: 100%;
+      margin: 2rem 0 0 0;
+      height: 3rem;
+      border-style: none;
+      border-radius: 5px;
+      letter-spacing: 0.1rem;
+      font-weight: bold;
+      cursor: pointer;
+
+      transition: opacity 200ms ease-in-out;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .card2 {
+    box-shadow: 0 0 10px 0 $lightGrayishBlue;
+    height: 30rem;
+    width: 23.33rem;
+    background-color: white;
+    border-radius: 0 1rem 1rem 0;
+    text-align: center;
+    color: $grayishBlue;
+    padding: 2.4rem 2rem 2rem 2rem;
+
+    .topText {
+      font-size: 1rem;
+    }
+
+    .priceContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      span {
+        font-size: 2.4rem;
+        margin-right: 0.5rem;
+        color: $darkGrayishBlue;
+      }
+
+      .price {
+        font-size: 3.6rem;
+        color: $darkGrayishBlue;
+      }
+    }
+
+    .line {
+      height: 1px;
+      background-color: $lightGrayishBlue;
+      margin: 1rem 0;
+    }
+  }
+
+  button {
+    background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    width: 100%;
+    margin: 2rem 0 0 0;
+    height: 3rem;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: opacity 200ms ease-in-out;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
