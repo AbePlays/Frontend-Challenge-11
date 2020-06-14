@@ -5,6 +5,33 @@
   color: #6d708d;
 }
 
+.switch {
+  margin-top: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.switch p {
+  color: #b3b5c6;
+  font-size: 1rem;
+}
+
+.switch--Button {
+  height: 2rem;
+  width: 3.66rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(#a3a8f0, #696fdd);
+  margin: 0 1.6rem;
+  border-radius: 1rem;
+}
+
 *,
 *::after,
 *::before {

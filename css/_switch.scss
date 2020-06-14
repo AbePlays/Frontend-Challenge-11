@@ -1,0 +1,19 @@
+.switch {
+  margin-top: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: $lightGrayishBlue;
+    font-size: 1rem;
+  }
+
+  &--Button {
+    height: 2rem;
+    width: 3.66rem;
+    background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    margin: 0 1.6rem;
+    border-radius: 1rem;
+  }
+}
